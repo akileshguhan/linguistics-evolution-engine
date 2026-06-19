@@ -1,5 +1,7 @@
 # Linguistic Evolution Engine
 
+**🌐 Live Demo:** [https://linguistics-evolution-engine.vercel.app](https://linguistics-evolution-engine.vercel.app)
+
 ![Linguistic Evolution Engine](docs/app_init.png)
 
 A full-stack, RAG-augmented phylogenetic simulation engine that models the phonetic evolution of language over time based on true academic linguistic principles. 
