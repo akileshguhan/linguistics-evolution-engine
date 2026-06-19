@@ -46,6 +46,11 @@ class AdvanceRequest(BaseModel):
     climate_humidity: float
     custom_event_text: str
 
+# Root endpoint for health checks (e.g. Render)
+@app.get("/")
+def read_root():
+    return {"status": "ok", "message": "Linguistic Evolution Engine API is running"}
+
 # --- Endpoints ---
 
 @app.post("/simulation/init")
